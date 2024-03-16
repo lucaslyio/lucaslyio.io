@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 15px;
+}
+
+.pai{
+    border: 5px solid black;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.pai > div{
+    border:2px solid red;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.pai >div:hover{
+    width: 90px;
+    height: 90px;
+}
+
+
+
+.pai2{
+    border: 5px solid black;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.pai2 > div{
+    border:2px solid red;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
